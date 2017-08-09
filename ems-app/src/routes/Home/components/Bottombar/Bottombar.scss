@@ -1,0 +1,19 @@
+@import 'base';
+.wrapper {
+  @extend .flex-row;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  height: 64px;
+  background-color: $background !important;
+  border-top: 1px solid #e5e5e5;
+}
+.now {
+  flex-wrap: wrap;
+  flex-grow: 1;
+  height: 64px !important;
+  span {
+    color: #4A85E8;
+    font-size: 18px !important;
+  }
+}

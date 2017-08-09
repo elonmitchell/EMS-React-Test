@@ -1,0 +1,25 @@
+@import 'base';
+.appBar {
+  border-bottom: 1px solid #e5e5e5;
+}
+// fix button alignment
+.appBar > div {
+  @extend .flex-row;
+  align-items: center;
+  margin-top: 0px !important;
+  @include mobile {
+    justify-content: flex-end;
+  }
+}
+.datepicker {
+  display: inline-block;
+  vertical-align: top;
+}
+.datepicker>div {
+  width: 120px !important;
+}
+.fullwidth, .fullwidth>div {
+  width: 100% !important;
+}
+.searchbar {
+}

@@ -1,0 +1,42 @@
+{
+  "projects": {
+    "master": "ms-test-234",
+    "prod": "ms-test-234"
+  },
+  "ci": {
+    "createConfig": {
+      "master": {
+        "version": "${npm_package_version}",
+        "env": "development",
+        "firebase": {
+          "apiKey": "AIzaSyAlGaY9LbeJxtF4t2_xc3LYBjUGSz4-Uvw",
+          "authDomain": "ms-test-234.firebaseapp.com",
+          "databaseURL": "https://ms-test-234.firebaseio.com",
+          "projectId": "ms-test-234",
+          "storageBucket": "ms-test-234.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      },
+      "prod": {
+        "version": "${npm_package_version}",
+        "env": "production",
+        "firebase": {
+          "apiKey": "AIzaSyAlGaY9LbeJxtF4t2_xc3LYBjUGSz4-Uvw",
+          "authDomain": "ms-test-234.firebaseapp.com",
+          "databaseURL": "https://ms-test-234.firebaseio.com",
+          "projectId": "ms-test-234",
+          "storageBucket": "ms-test-234.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      }
+    }
+  }
+}

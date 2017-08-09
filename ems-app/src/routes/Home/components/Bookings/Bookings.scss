@@ -1,0 +1,30 @@
+@import 'base';
+
+.container {
+  width: 100%;
+}
+.subheader {
+  width: 100%;
+  border-top: 2px solid #e5e5e5 !important;
+  border-bottom: 2px solid #e5e5e5 !important;
+  font-size: 16px !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+.listitem {
+  width: 100%;
+  background: #fff !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+  table {
+    margin: 0 !important;
+    color: #3e3e3e !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans';
+    tr td:first-child {
+      text-align: right;
+    }
+    tr td:last-child {
+      padding-left: 20px;
+    }
+  }
+}

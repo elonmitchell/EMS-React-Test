@@ -1,0 +1,14 @@
+@import 'base';
+.container {
+  height: 100%;
+}
+.bookings {
+  @extend .flex-column-center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 100%;
+  height: calc(100% - 130px);
+  overflow-y: auto;
+  background-color: $background;
+}
